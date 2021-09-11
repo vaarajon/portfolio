@@ -18,7 +18,7 @@ Application fetch data for predetermined stocks and produce graphs from differen
 
 ## Installation
 1. Clone the repository to your local machine 
-`$ git clone https://github.com/vaarajon/portfolio/stockAnalysis/stockAnalysis.git`
+`$ git clone https://github.com/vaarajon/portfolio.git`
 
 2. Run `cd stockAnalysis`
 
