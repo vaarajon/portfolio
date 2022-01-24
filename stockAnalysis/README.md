@@ -36,6 +36,7 @@ Application fetch data for predetermined stocks and produce graphs from differen
 2. Run the code
 3. Paste dataframe into a speadsheet for investigating metrics more closely
 
+![image](https://user-images.githubusercontent.com/44286044/150795572-77822658-1a3d-4868-8c42-0d96c1417876.png)
 
 
 
