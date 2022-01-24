@@ -39,12 +39,10 @@ ENTRY WINDOW FOR NEEDED VARIABLES
 window = Tk()
 window.eval("tk::PlaceWindow . center") # place the window in the middle of the screen
 
-#start_date = []
 year = 0
 month = 0
 day = 0
 portfolio_size = []
-#rf = []
 rf = 0
 tickers = []
 
@@ -60,7 +58,6 @@ def submit():
     month = int(month_entry.get())
     day = int(day_entry.get())
     portfolio_size.append(int(port_entry.get()))
-    #rf.append(float(risk_entry.get())/100)
     rf = float(risk_entry.get())/100
 
     window.destroy()
