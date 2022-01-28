@@ -8,7 +8,7 @@ The optimal portfolio aims to balance securities with the greatest potential ret
 Please note that before making any investment, you should do your own research.
 
 ## What
-Application fetch data from Yahoo Finance and produce graphs using user pre-defined variables. The application takes into consideration:
+The Application fetch data from Yahoo Finance and produces graphs using user pre-defined variables. The application takes into consideration:
 1. Stock symbols from Yahoo Finance
 2. Start year (from which point the application fetch the data)
 3. Start month
