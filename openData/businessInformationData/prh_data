@@ -1,64 +1,89 @@
 	dataType	businessId	name	companyForm	companyForm2	registrationDate	endDate	businessLines	street	postCode	city	country	contactDetails	contactDetailsType
-0	companyForms	0101138-5	TietoEVRY Oyj	Public limited company		1998-03-27								
-1	companyForms	0101138-5	TietoEVRY Oyj	Julkinen osakeyhtiö	OYJ	1998-03-27								
-2	companyForms	0101138-5	TietoEVRY Oyj	Publikt aktiebolag	OYJ	1998-03-27								
-3	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Computer facilities management activities						
-4	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Tietojenkäsittelyn ja laitteistojen käyttö- ja hallintapalvelut						
-5	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Datordrifttjänster						
-6	addresses	0101138-5	TietoEVRY Oyj			2008-05-29	2016-12-11		PL 38	00441	HELSINKI			
-7	addresses	0101138-5	TietoEVRY Oyj			2008-05-29	2016-12-11		Aku Korhosen tie 2-6	00440	HELSINKI			
-8	addresses	0101138-5	TietoEVRY Oyj			2016-12-12			Keilalahdentie 2-4	02150	ESPOO			
-9	addresses	0101138-5	TietoEVRY Oyj			2016-12-12			PL 2	02101	ESPOO			
-10	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Puhelin
-11	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Telefon
-12	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Telephone
-13	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Faksi
-14	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Fax
-15	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Fax
-16	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	Kotisivun www-osoite
-17	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	www-adress
-18	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	Website address
-19	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	Kotisivun www-osoite
-20	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	www-adress
-21	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	Website address
-22	companyForms	1904292-1	KONE Hissit Oy	Limited company		2004-06-22								
-23	companyForms	1904292-1	KONE Hissit Oy	Osakeyhtiö	OY	2004-06-22								
-24	companyForms	1904292-1	KONE Hissit Oy	Aktiebolag	AB	2004-06-22								
-25	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Electrical installation						
-26	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Sähköasennus						
-27	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Elinstallationer						
-28	addresses	1904292-1	KONE Hissit Oy			2004-06-15	2015-07-02		PL 26	00401	HELSINKI			
-29	addresses	1904292-1	KONE Hissit Oy			2004-06-15	2015-07-02		Eliel Saarisen tie 2	00400	HELSINKI			
-30	addresses	1904292-1	KONE Hissit Oy			2015-07-03			Aku Korhosen tie 8	00440	HELSINKI			
-31	addresses	1904292-1	KONE Hissit Oy			2015-07-03			PL 26	00440	HELSINKI			
-32	companyForms	1849149-3	BRP Finland Oy	Limited company		2003-09-18								
-33	companyForms	1849149-3	BRP Finland Oy	Osakeyhtiö	OY	2003-09-18								
-34	companyForms	1849149-3	BRP Finland Oy	Aktiebolag	AB	2003-09-18								
-35	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Manufacture of motor vehicles						
-36	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Moottoriajoneuvojen valmistus						
-37	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Motorfordonstillverkning						
-38	addresses	1849149-3	BRP Finland Oy			2004-01-23	2008-10-16		Teollisuustie 13	96320	ROVANIEMI			
-39	addresses	1849149-3	BRP Finland Oy			2004-01-23	2008-10-16		Teollisuustie 13	96320	ROVANIEMI			
-40	addresses	1849149-3	BRP Finland Oy			2008-10-16			PL 8040	96101	ROVANIEMI			
-41	addresses	1849149-3	BRP Finland Oy			2008-10-16			Isoaavantie 7	96320	ROVANIEMI			
-42	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Matkapuhelin
-43	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Mobiltelefon
-44	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Mobile phone
-45	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Puhelin
-46	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Telefon
-47	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Telephone
-48	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Faksi
-49	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Fax
-50	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Fax
-51	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Puhelin
-52	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Telefon
-53	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Telephone
-54	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Faksi
-55	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Fax
-56	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Fax
-57	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Matkapuhelin
-58	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Mobiltelefon
-59	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Mobile phone
-60	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	Kotisivun www-osoite
-61	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	www-adress
-62	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	Website address
+0	results	3264596-2	Tietoi Oy			2022-01-29								
+1	results	3254594-5	Tietoleppä Oy			2021-12-14								
+2	results	3242305-9	Tietoon Oy			2021-10-15								
+3	results	3241402-1	Tietokuja 2 Holding Oy			2021-10-08								
+4	results	3234614-5	I & T Ahonen Oy			2021-09-09								
+5	results	3217480-6	Tietohuone Oy			2021-06-11								
+6	results	3207666-7	TietoAkseli Holding Oy			2021-04-27								
+7	results	3188941-2	Tietoisuusklinikka Oy			2021-02-05								
+8	results	3182269-9	Tietovaltti Oy			2021-01-10								
+9	results	3122731-2	Tietovirtaamo Oy			2020-02-28								
+10	results	0101138-5	TietoEVRY Oyj			1978-03-15								
+11	companyForms	0101138-5	TietoEVRY Oyj	Public limited company		1998-03-27								
+12	companyForms	0101138-5	TietoEVRY Oyj	Julkinen osakeyhtiö	OYJ	1998-03-27								
+13	companyForms	0101138-5	TietoEVRY Oyj	Publikt aktiebolag	OYJ	1998-03-27								
+14	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Computer facilities management activities						
+15	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Tietojenkäsittelyn ja laitteistojen käyttö- ja hallintapalvelut						
+16	businessLines	0101138-5	TietoEVRY Oyj			2007-12-31		Datordrifttjänster						
+17	addresses	0101138-5	TietoEVRY Oyj			2008-05-29	2016-12-11		PL 38	00441	HELSINKI			
+18	addresses	0101138-5	TietoEVRY Oyj			2008-05-29	2016-12-11		Aku Korhosen tie 2-6	00440	HELSINKI			
+19	addresses	0101138-5	TietoEVRY Oyj			2016-12-12			Keilalahdentie 2-4	02150	ESPOO			
+20	addresses	0101138-5	TietoEVRY Oyj			2016-12-12			PL 2	02101	ESPOO			
+21	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Puhelin
+22	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Telefon
+23	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							02072010	Telephone
+24	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Faksi
+25	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Fax
+26	contactDetails	0101138-5	TietoEVRY Oyj			2008-05-29							0207268898	Fax
+27	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	Kotisivun www-osoite
+28	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	www-adress
+29	contactDetails	0101138-5	TietoEVRY Oyj			2009-02-02	2020-04-29						www.tieto.com	Website address
+30	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	Kotisivun www-osoite
+31	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	www-adress
+32	contactDetails	0101138-5	TietoEVRY Oyj			2020-04-30							www.tietoevry.com	Website address
+33	results	3267380-8	KonePakka Oy			2022-02-09								
+34	results	3266425-8	Koneurakointi Stordahl Oy			2022-02-06								
+35	results	3265064-9	KonePäkkilä Oy			2022-01-31								
+36	results	3262470-7	Konehuolto Järvelä Oy			2022-01-20								
+37	results	3261356-5	Kone Kalliomaa Oy			2022-01-17								
+38	results	3257374-3	Konekorjaamo Honkonen Oy			2021-12-29								
+39	results	3257221-4	Koneurakointi Miton Oy			2021-12-28								
+40	results	3255874-6	Koneurakointi Timo Manninen Oy			2021-12-20								
+41	results	3255748-7	Koneurakointi Pylväläinen Oy			2021-12-20								
+42	results	3255158-7	Koneurakointi Saarelainen Oy			2021-12-16								
+43	results	1904292-1	KONE Hissit Oy			2004-06-15								
+44	companyForms	1904292-1	KONE Hissit Oy	Limited company		2004-06-22								
+45	companyForms	1904292-1	KONE Hissit Oy	Osakeyhtiö	OY	2004-06-22								
+46	companyForms	1904292-1	KONE Hissit Oy	Aktiebolag	AB	2004-06-22								
+47	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Electrical installation						
+48	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Sähköasennus						
+49	businessLines	1904292-1	KONE Hissit Oy			2007-12-31		Elinstallationer						
+50	addresses	1904292-1	KONE Hissit Oy			2004-06-15	2015-07-02		PL 26	00401	HELSINKI			
+51	addresses	1904292-1	KONE Hissit Oy			2004-06-15	2015-07-02		Eliel Saarisen tie 2	00400	HELSINKI			
+52	addresses	1904292-1	KONE Hissit Oy			2015-07-03			Aku Korhosen tie 8	00440	HELSINKI			
+53	addresses	1904292-1	KONE Hissit Oy			2015-07-03			PL 26	00440	HELSINKI			
+54	results	1849149-3	BRP Finland Oy			2003-09-02								
+55	companyForms	1849149-3	BRP Finland Oy	Limited company		2003-09-18								
+56	companyForms	1849149-3	BRP Finland Oy	Osakeyhtiö	OY	2003-09-18								
+57	companyForms	1849149-3	BRP Finland Oy	Aktiebolag	AB	2003-09-18								
+58	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Manufacture of motor vehicles						
+59	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Moottoriajoneuvojen valmistus						
+60	businessLines	1849149-3	BRP Finland Oy			2007-12-31		Motorfordonstillverkning						
+61	addresses	1849149-3	BRP Finland Oy			2004-01-23	2008-10-16		Teollisuustie 13	96320	ROVANIEMI			
+62	addresses	1849149-3	BRP Finland Oy			2004-01-23	2008-10-16		Teollisuustie 13	96320	ROVANIEMI			
+63	addresses	1849149-3	BRP Finland Oy			2008-10-16			PL 8040	96101	ROVANIEMI			
+64	addresses	1849149-3	BRP Finland Oy			2008-10-16			Isoaavantie 7	96320	ROVANIEMI			
+65	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Matkapuhelin
+66	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Mobiltelefon
+67	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2014-04-07						0400200275	Mobile phone
+68	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Puhelin
+69	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Telefon
+70	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208167	Telephone
+71	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Faksi
+72	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Fax
+73	contactDetails	1849149-3	BRP Finland Oy			2004-01-23	2012-05-10						0163208240	Fax
+74	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Puhelin
+75	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Telefon
+76	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 3208 111	Telephone
+77	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Faksi
+78	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Fax
+79	contactDetails	1849149-3	BRP Finland Oy			2012-05-11							+358 16 318 114	Fax
+80	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Matkapuhelin
+81	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Mobiltelefon
+82	contactDetails	1849149-3	BRP Finland Oy			2014-04-08								Mobile phone
+83	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	Kotisivun www-osoite
+84	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	www-adress
+85	contactDetails	1849149-3	BRP Finland Oy			2014-04-08							www.brpscandinavia.com	Website address
+86	results	2144656-2	Norrhydro Group Oyj			2007-10-01								
+87	results	0606414-4	Norrhydro Oy			1986-01-09								
