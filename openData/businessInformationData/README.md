@@ -1,12 +1,12 @@
 # Business Information Data using the open API provided by the Finnish Patent and Registration Office (PRH)
 
 ## Summary
-Simple application which fetch the data for the companies that are defined
+Simple application to fetch the data for the companies that are defined
 in "yritykset.csv" -file.
 
 ## What
 1. The application will fetch data for the companies that are defined
-in yritykset.csv -file.
+in "yritykset.csv" -file.
 2. Flatten the json data into a dataframe
 3. Append the flattened data into a PRH_data dataframe
 4. Convert the PRH_data dataframe into a csv-file and save it to the workspace folder
