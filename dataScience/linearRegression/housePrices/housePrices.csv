@@ -1,0 +1,62 @@
+﻿neighborhood;flat;flatType;squareMeters;price;pricePerSM;constructionYear;floorNumber;elevator;condition
+Keskusta;1h, tupak, kph,...;kt;44,5;110100;2474;2005;3;on;hyvä
+3. kaupunginosa;1h, kk, kph;kt;25,1;44000;1753;1956;2;ei;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;124500;5188;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125900;5246;2021;3;on;hyvä
+Keskusta;1h, kk, kph + l...;kt;28;63500;2268;1978;3;on;hyvä
+Keskusta;1h, kk, kph;kt;30;65300;2177;1967;1;on;hyvä
+Keskusta;1h, k, kph + la...;kt;21,5;125450;5835;2021;5;on;hyvä
+Keskusta;1h, kk, alk, kp...;kt;27;62000;2296;1967;5;on;hyvä
+Tapiola;1h, kk, kph;kt;32,5;52000;1600;1959;3;ei;hyvä
+3. kaupunginosa;1h, kk, alk, kp...;kt;35;67500;1929;1991;2;ei;hyvä
+3. kaupunginosa;1h, k, kph, s, ...;kt;37;75000;2027;1990;1;ei;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125000;5208;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125900;5246;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;3;on;hyvä
+Veitikanharju;1h, kk, kph, vh;kt;29;56500;1948;1976;2;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;5;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;5;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;5;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;123100;5129;2021;4;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125900;5246;2021;5;on;hyvä
+3. kaupunginosa;1h, kk, kph, s,...;kt;29,5;110000;3729;2015;4;on;hyvä
+3. kaupunginosa;1h, kk, kph;kt;20;38500;1925;1962;1;ei;hyvä
+Keskusta;1h, kk, kph + r...;kt;29;86000;2966;1961;4;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;124000;5167;2021;6;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125900;5246;2021;3;on;hyvä
+Keskusta;1h, k, kph + ra...;kt;24;125900;5246;2021;4;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;128000;4923;2022;5;on;hyvä
+Keskusta;1h, kk, alk, kp...;kt;30;76000;2533;1989;1;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;129600;4985;2022;5;on;hyvä
+Veitikanharju;1h, kk, kph, s ...;kt;36;80000;2222;1981;2;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;133100;5119;2022;5;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;122414;4708;2022;4;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;129107;4966;2022;6;on;hyvä
+Keskusta;1h,kk,p;kt;30;82000;2733;2000;4;on;hyvä
+Veitikanharju;1h, kk, vh, kph...;kt;34;68000;2000;1978;4;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;119700;4604;2022;2;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;121000;4654;2022;3;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;121000;4654;2022;3;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;121000;4654;2022;3;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;125000;4808;2022;4;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;125000;4808;2022;4;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;128000;4923;2022;5;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;119700;4604;2022;2;on;hyvä
+Keskusta;1h,k,ransk.p;kt;26;119900;4612;2022;2;on;hyvä
+Keskusta;1h,k,p;kt;30;124800;4160;2022;1;on;hyvä
+Keskusta;1h,k,s,p;kt;32;97000;3031;2007;2;on;hyvä
+Veitikanharju;1h, kk, kph, al...;kt;30;87000;2900;2000;2;on;hyvä
+Veitikanharju;1h,kk;kt;32;69000;2156;1972;3;on;hyvä
+3. kaupunginosa;1h, kk, kph;kt;25,5;47000;1843;1964;3;on;hyvä
+Keskusta;1h,kk;kt;29;59600;2055;1961;2;on;hyvä
+Keskusta;1h,kk;kt;32;41000;1281;1977;4;on;hyvä
+3.kaupunginosa;1h,kk,s,p;kt;30;80000;2667;1999;3;on;hyvä
+Keskusta;1h, tupakeitti&...;kt;35;93000;2657;1985;3;on;hyvä
+Keskusta;1h,kk,alk,terassi;kt;30;113500;3783;2016;1;on;hyvä
+Keskusta;1h,kk,s,p;kt;33;82000;2485;1989;3;on;hyvä
+Keskusta;1h, alk, kk, kp...;kt;45,5;159000;3495;2018;4;on;hyvä
+Keskusta;1h,kk,ransk.parv;kt;24;41763;1740;1960;2;ei;tyyd.
+Keskusta;1h, kk, kph, ra...;kt;28;75000;2679;1962;3;on;hyvä
