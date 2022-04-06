@@ -79,7 +79,7 @@ ax1 = fig.add_subplot(specs[0, 0]) # First row, first slot
 ax1 = sn.heatmap(conf_matrix, annot=True, cmap="Blues")
 ax1.set_ylabel("Actual label")
 ax1.set_xlabel("Predicted label")
-sampleTitle = "Accuracy Score: {0}".format(logreg.score(x_test, y_test))
+sampleTitle = "Accuracy Score (test set): {0}".format(logreg.score(x_test, y_test))
 ax1.set_title(sampleTitle, size=15)
 
 ax2 = fig.add_subplot(specs[0, 1]) # First row, second slot
@@ -88,7 +88,8 @@ ax2 = fig.add_subplot(specs[0, 1]) # First row, second slot
 #ax2.spines["top"].set_visible(False)
 #ax2.spines("right").set_visible(False)
 #ax2.spines("left").set_visible(False)
-ax2.axis("off")
+#ax2.axis("off")
+
 
 # Add gridlines and colors
 ax2.grid(color="grey", linestyle="-", linewidth=0.25, alpha=0.5)
@@ -98,14 +99,22 @@ pred_colors = ["#4786D1" if target <= 0 else "#F28627" for target in y_pred]
 # Scatter plot
 y_train_len = len(y_train) 
 y_pred_len = len(y_pred)
-ax2 = plt.scatter(np.arange(0, y_train_len), y_train, color=train_colors, marker="o", s=[5*y_train_len])
-ax2 = plt.scatter(np.arange(0, y_pred_len), y_pred, color=pred_colors, marker="^", s=[20*y_pred_len])
+ax2 = plt.scatter(np.arange(0, y_train_len), y_train, color=train_colors, marker="o", s=[15*y_train_len], edgecolors="Black", linewidth=0.5)
+ax2 = plt.scatter(np.arange(0, y_pred_len), y_pred, color=pred_colors, marker="^", s=[15*y_pred_len], edgecolors="Black", linewidth=0.5)
+
+
+
+
+# Customize the legend
 
 
 
 
 
 ax3 = fig.add_subplot(specs[1, 0]) # Second row, first slot
+ax3 = plt.scatter(y_test, y_pred)
+ax3.set
+
 ax4 = fig.add_subplot(specs[1, 1]) # Second row, second slot
 
 
