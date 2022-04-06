@@ -28,7 +28,7 @@ import matplotlib.gridspec as gridspec
 from matplotlib.lines import Line2D
 import seaborn as sn
 
-data = pd.DataFrame(pd.read_csv("/Users/Joni/Desktop/Python/GitHub/Portfolio/dataScience/logisticRegression/logReg_testData.csv", sep="\;", decimal=",", engine="python"))
+data = pd.DataFrame(pd.read_csv("logReg_testData.csv", sep="\;", decimal=",", engine="python"))
 
 # Cleaning the dataset
 # Check null values/missing values
@@ -83,13 +83,13 @@ sampleTitle = "Accuracy Score (test set): {0}".format(logreg.score(x_test, y_tes
 ax1.set_title(sampleTitle, size=15)
 
 ax2 = fig.add_subplot(specs[0, 1]) # First row, second slot
+ax2.set_xlabel("Observation")
+ax2.set_ylabel("Target value (sales forecast accepted")
 
 # Remove borders
-#ax2.spines["top"].set_visible(False)
-#ax2.spines("right").set_visible(False)
-#ax2.spines("left").set_visible(False)
-#ax2.axis("off")
-
+ax2.spines["top"].set_visible(False)
+ax2.spines["right"].set_visible(False)
+ax2.spines["left"].set_visible(False)
 
 # Add gridlines and colors
 ax2.grid(color="grey", linestyle="-", linewidth=0.25, alpha=0.5)
@@ -102,22 +102,23 @@ y_pred_len = len(y_pred)
 ax2 = plt.scatter(np.arange(0, y_train_len), y_train, color=train_colors, marker="o", s=[15*y_train_len], edgecolors="Black", linewidth=0.5)
 ax2 = plt.scatter(np.arange(0, y_pred_len), y_pred, color=pred_colors, marker="^", s=[15*y_pred_len], edgecolors="Black", linewidth=0.5)
 
-
-
-
 # Customize the legend
 
-
-
+legend_items = [Line2D([0], [0], color="#4786D1", markersize=10),
+                Line2D([0], [0], color="#F28627", markersize=10),
+                Line2D([0], [0], color="w", marker="o", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10),
+                Line2D([0], [0], color="w", marker="^", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10)]
+ax2.legend(handles=legend_items,
+            labels=["Class 0: Not accepted",
+                    "Class 1: Acceptep",
+                    "Training set",
+                    "Predictions"],
+                    labelspacing=1.5,
+                    borderdpad=1)
 
 
 ax3 = fig.add_subplot(specs[1, 0]) # Second row, first slot
-ax3 = plt.scatter(y_test, y_pred)
-ax3.set
-
 ax4 = fig.add_subplot(specs[1, 1]) # Second row, second slot
-
-
 
 
 plt.show()
