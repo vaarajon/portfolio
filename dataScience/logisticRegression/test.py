@@ -28,7 +28,7 @@ import matplotlib.gridspec as gridspec
 from matplotlib.lines import Line2D
 import seaborn as sn
 
-data = pd.DataFrame(pd.read_csv("logReg_testData.csv", sep="\;", decimal=",", engine="python"))
+data = pd.DataFrame(pd.read_csv("/Users/Joni/Desktop/Python/GitHub/portfolio/dataScience/logisticRegression/logReg_testData.csv", sep="\;", decimal=",", engine="python"))
 
 # Cleaning the dataset
 # Check null values/missing values
@@ -86,6 +86,18 @@ ax2 = fig.add_subplot(specs[0, 1]) # First row, second slot
 ax2.set_xlabel("Observation")
 ax2.set_ylabel("Target value (sales forecast accepted")
 
+legend_items = [Line2D([0], [0], color="#4786D1", markersize=10),
+                Line2D([0], [0], color="#F28627", markersize=10),
+                Line2D([0], [0], color="w", marker="o", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10),
+                Line2D([0], [0], color="w", marker="^", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10)]
+ax2.legend(handles=legend_items,
+            labels=["Class 0: Not accepted",
+                    "Class 1: Acceptep",
+                    "Training set",
+                    "Predictions"],
+                    labelspacing=1.5,
+                    borderdpad=1)
+
 # Remove borders
 ax2.spines["top"].set_visible(False)
 ax2.spines["right"].set_visible(False)
@@ -104,6 +116,8 @@ ax2 = plt.scatter(np.arange(0, y_pred_len), y_pred, color=pred_colors, marker="^
 
 # Customize the legend
 
+
+"""
 legend_items = [Line2D([0], [0], color="#4786D1", markersize=10),
                 Line2D([0], [0], color="#F28627", markersize=10),
                 Line2D([0], [0], color="w", marker="o", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10),
@@ -115,7 +129,7 @@ ax2.legend(handles=legend_items,
                     "Predictions"],
                     labelspacing=1.5,
                     borderdpad=1)
-
+"""
 
 ax3 = fig.add_subplot(specs[1, 0]) # Second row, first slot
 ax4 = fig.add_subplot(specs[1, 1]) # Second row, second slot
