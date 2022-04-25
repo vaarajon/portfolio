@@ -17,7 +17,7 @@ LOGISTIC REGRESSION USING SKLEARN
 
 ########################### """
 
-from turtle import color
+from turtle import color, position
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LogisticRegression
@@ -70,97 +70,26 @@ conf_matrix = confusion_matrix(y_test, y_pred)
 print(conf_matrix)
 print("Model accuracy:", logreg.score(x_test, y_test))
 
-# Visualise the results
-fig = plt.figure(1, figsize = (12, 6))
+fig = plt.figure(figsize=(8,6))
 specs = gridspec.GridSpec(ncols=2, nrows=2, figure=fig)
-plt.subplots_adjust(left=0.03, bottom=0.135, right=0.98, wspace=0.93, hspace=0.45)
 
-ax1 = fig.add_subplot(specs[0, 0]) # First row, first slot
-ax1 = sn.heatmap(conf_matrix, annot=True, cmap="Blues")
-ax1.set_ylabel("Actual label")
-ax1.set_xlabel("Predicted label")
-sampleTitle = "Accuracy Score (test set): {0}".format(logreg.score(x_test, y_test))
-ax1.set_title(sampleTitle, size=15)
+ax1 = fig.add_subplot(specs[0,0])
+ax2 = fig.add_subplot(specs[0,1])
+ax3 = fig.add_subplot(specs[1,0])
+ax4 = fig.add_subplot(specs[1,1])
 
-ax2 = fig.add_subplot(specs[0, 1]) # First row, second slot
-ax2.set_xlabel("Observation")
-ax2.set_ylabel("Target value (sales forecast accepted")
+ax1.matshow(conf_matrix, cmap="Blues")
+ax1.set_xlabel("True labels")
+ax1.set_ylabel("Predicted labels")
+ax1.set_xticks([0,1],["True", "False"])
+ax1.set_yticks([0,1],["True", "False"])
+ax1.xaxis.set_ticks_position("bottom")
 
-legend_items = [Line2D([0], [0], color="#4786D1", markersize=10),
-                Line2D([0], [0], color="#F28627", markersize=10),
-                Line2D([0], [0], color="w", marker="o", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10),
-                Line2D([0], [0], color="w", marker="^", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10)]
-ax2.legend(handles=legend_items,
-            labels=["Class 0: Not accepted",
-                    "Class 1: Acceptep",
-                    "Training set",
-                    "Predictions"],
-                    labelspacing=1.5,
-                    borderdpad=1)
-
-# Remove borders
-ax2.spines["top"].set_visible(False)
-ax2.spines["right"].set_visible(False)
-ax2.spines["left"].set_visible(False)
-
-# Add gridlines and colors
-ax2.grid(color="grey", linestyle="-", linewidth=0.25, alpha=0.5)
-train_colors = ["#4786D1" if target <= 0 else "#F28627" for target in y_train]
-pred_colors = ["#4786D1" if target <= 0 else "#F28627" for target in y_pred]
-
-# Scatter plot
-y_train_len = len(y_train) 
-y_pred_len = len(y_pred)
-ax2 = plt.scatter(np.arange(0, y_train_len), y_train, color=train_colors, marker="o", s=[15*y_train_len], edgecolors="Black", linewidth=0.5)
-ax2 = plt.scatter(np.arange(0, y_pred_len), y_pred, color=pred_colors, marker="^", s=[15*y_pred_len], edgecolors="Black", linewidth=0.5)
-
-# Customize the legend
+for i in range(conf_matrix.shape[0]):
+    for j in range(conf_matrix.shape[1]):
+        ax1.text(x=j, y=i, s=conf_matrix[i,j], va="center", ha="center")
 
 
-"""
-legend_items = [Line2D([0], [0], color="#4786D1", markersize=10),
-                Line2D([0], [0], color="#F28627", markersize=10),
-                Line2D([0], [0], color="w", marker="o", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10),
-                Line2D([0], [0], color="w", marker="^", markerfacecolor="#979797", markeredgecolor="#979797", markersize=10)]
-ax2.legend(handles=legend_items,
-            labels=["Class 0: Not accepted",
-                    "Class 1: Acceptep",
-                    "Training set",
-                    "Predictions"],
-                    labelspacing=1.5,
-                    borderdpad=1)
-"""
-
-ax3 = fig.add_subplot(specs[1, 0]) # Second row, first slot
-ax4 = fig.add_subplot(specs[1, 1]) # Second row, second slot
 
 
 plt.show()
-
-"""
-    fig, ax = plt.subplots(figsize=(15, 10))
-    # removing all borders except bottom
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-    # adding major gridlines
-    ax.grid(color='grey', linestyle='-', linewidth=0.25, alpha=0.5)
-    training_colors = ['#4786D1' if target <= 0 else '' for target in train_targets]
-    prediction_colors = ['#4786D1' if target <= 0 else '#F28627' for target in predictions]
-    train_set_len = len(train_targets)
-    predictions_len = len(predictions)
-    plt.scatter(np.arange(0, train_set_len), train_targets, color=training_colors, marker='o', s=[5 * train_set_len])
-    plt.scatter(np.arange(0, predictions_len), predictions, color=prediction_colors, marker='^', s=[20 * predictions_len])
-    ax.set_xlabel('Observation')
-    ax.set_ylabel('Target value (sales forecast)')
-
-    # Customizing symbols in the legend
-    legend_items = [Line2D([0], [0], color='#4786D1', markersize=10), 
-        Line2D([0], [0], color='#F28627', markersize=10),
-        Line2D([0], [0], color='w', marker='o', markerfacecolor='#979797', markeredgecolor='#979797', markersize=10),
-        Line2D([0], [0], color='w', marker='^', markerfacecolor='#979797', markeredgecolor='#979797', markersize=10)]
-    # Adding some spacing between each legend row and padding
-    ax.legend(handles=legend_items,
-    labels=['Class 0: Not accepted', 'Class 1: Accepted', 'Training set', 'Predictions'],labelspacing=1.5, borderpad=1)
-
-"""
